@@ -5,7 +5,7 @@ html, body {
 body {
 	color: #000000;
 	padding: 20px;
-	background: url("https://unsplash.com/?photo=JSv9uK-9ZUg");
+	background: url("images/ocean.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 	font-family: "Open Sans", sans-serif;
