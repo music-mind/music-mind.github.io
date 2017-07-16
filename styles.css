@@ -1,0 +1,48 @@
+html, body {
+	margin: 0;
+}
+
+body {
+	color: #000000;
+	padding: 20px;
+	background: url("https://unsplash.imgix.net/photo-1422513391413-ddd4f2ce3340?fit=crop&fm=jpg&h=700&q=75&w=1050");
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: "Open Sans", sans-serif;
+}
+
+img#headshot {
+	float: left;
+	height: 150px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	padding: 5px;
+	border: 2px solid #c9d0db;
+	border-radius: 50%;
+}
+
+#resume {
+	width: 800px; /* 75% */
+	margin: 50px auto;
+	padding: 30px;
+	background: rgba(255, 255, 255, 0.8);
+	border: 2px solid #404040;
+	box-shadow: 0 0 300px #000;
+}
+
+h1, h3 {
+	font-weight: 700;
+}
+
+p {
+	font-weight: 300;-
+}
+
+section {
+	margin-left: 150px;
+	margin-right: 50px;
+}
+
+address {
+	float: right;
+}
