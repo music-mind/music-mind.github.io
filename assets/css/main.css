@@ -1626,7 +1626,6 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		/*color: inherit;*/
 		font-weight: 300;
 		line-height: 1.75em;
 		margin-bottom: 1em;
@@ -1634,7 +1633,6 @@
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			/*color: inherit;*/
 			text-decoration: none;
 			border: 0;
 		}
@@ -2416,8 +2414,6 @@
 
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
-		/*background-color: #645862;*/
-		/*background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner.jpg"); */
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
@@ -2435,7 +2431,6 @@
 			-webkit-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
-			/*background: rgba(52, 27, 43, 0.5);*/
 			color: #fff;
 			display: table-cell;
 			opacity: 0;
