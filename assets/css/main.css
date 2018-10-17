@@ -409,7 +409,8 @@
 	}
 
 	.\36 u, .\36 u\24 {
-		/*width: 50%;*/
+		width: 50%;
+		height: 650px;
 		clear: none;
 		margin-left: 0;
 	}
@@ -2950,7 +2951,7 @@
 				top: 0;
 				width: 275px;
 				z-index: 10002;
-				background: #1c2021;
+				background: #83d3c9;
 				color: #fff;
 				font-size: 0.8em;
 				letter-spacing: 0.075em;
@@ -3238,3 +3239,29 @@
 .container {
     padding: 2px 16px;
 }
+
+@media only screen and (max-width: 768px) {
+	#banner .banner-table {
+		display: block;
+	}
+
+	#banner .inner {
+		display: block;
+		width: 100%;
+	}
+
+	#banner .inner-right {
+		display: inherit;
+		width: 100%;
+	}
+
+	#banner .inner-right img {
+		width: 100%;
+	}
+
+	.\36 u, .\36 u\24 {
+		width: 100%;
+		height: inherit;
+	}
+} 
+
