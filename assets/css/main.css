@@ -3264,3 +3264,7 @@
 		height: inherit;
 	}
 }
+
+.project_image {
+	max-width: 200px;
+}
