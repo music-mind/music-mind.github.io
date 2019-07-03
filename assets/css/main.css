@@ -242,7 +242,7 @@
 	.avatar img {
 				display: block;
 				margin: 0 auto;
-				border-radius: 50%;	
+				border-radius: 50%;
 			}
 
 /* Grid */
@@ -1886,7 +1886,7 @@
 					background: #829bc9;
 				}
 
-			.icon.circle.fa-linkedin-square {
+			.icon.circle.fa-linkedin {
 				background: #3FB0A2;
 				color: #fff;
 			}
@@ -3263,5 +3263,4 @@
 		width: 100%;
 		height: inherit;
 	}
-} 
-
+}
