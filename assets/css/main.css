@@ -410,7 +410,6 @@
 
 	.\36 u, .\36 u\24 {
 		width: 50%;
-		height: 650px;
 		clear: none;
 		margin-left: 0;
 	}
@@ -3267,4 +3266,16 @@
 
 .project_image {
 	max-width: 200px;
+	max-height: 200px;
+}
+
+#projects section {
+	height: 400px;
+}
+
+.image_wrap {
+	width: 200px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
 }
