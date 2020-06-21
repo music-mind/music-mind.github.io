@@ -2434,8 +2434,9 @@
 			color: #fff;
 			display: table-cell;
 			opacity: 0;
-			padding: 3em;
+			padding: 0em 3em 3em 3em;
 			text-align: center;
+			vertical-align: middle;
 			width: 50%;
 		}
 
@@ -2484,7 +2485,7 @@
 			vertical-align: top;
 			width: 50%;
 			text-align: center;
-			padding: 3em;
+			padding: 0em 3em;
 
 		}
 
@@ -3278,4 +3279,8 @@
 	height: 200px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.logo {
+	max-width: 100%;
 }
