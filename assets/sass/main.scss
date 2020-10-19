@@ -367,12 +367,12 @@
 				}
 			}
 
-			&.fa-dribbble {
-				background: _palette(dribbble, bg);
-				color: _palette(dribbble, fg);
+			&.fa-user {
+				background: _palette(user, bg);
+				color: _palette(user, fg);
 
 				&:hover {
-					background: lighten(_palette(dribbble, bg), 4);
+					background: lighten(_palette(user, bg), 4);
 				}
 			}
 		}

@@ -1,15 +1,15 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>About Me | Arri Ye</title>
+		<title>Blog | Arri Ye</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="assets/css/about.css" />
+		<link rel="stylesheet" href="assets/css/blog.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<link rel="icon" type="image/ico" href="favicon.ico"/>
+    <link rel="icon" type="image/ico" href="favicon.ico"/>
 	</head>
 	<body>
 		<div>
@@ -19,13 +19,13 @@
 					<h1><a href="./index.html">Home</a></h1>
 					<ul>
 						<li class="current">
-							<a class="activeLink" href="./about.html">About Me</a>
+							<a href="./about.html">About Me</a>
 						</li>
 						<li class="current">
 							<a href="./projects.html">Projects</a>
 						</li>
 						<li class="current">
-							<a href="./blog.html">Blog</a>
+							<a class="activeLink" href="./blog.html">Blog</a>
 						</li>
 						<li><a href="./resume.pdf" class="button special" target="_blank">Resume</a></li>
 					</ul>
@@ -34,12 +34,24 @@
 
 			<main class="page">
 				<section id="banner">
-					<h2><strong>Hi, I'm Arri!</strong></h2>
-					<p>I'm currently a student in 4B of the <strong>Computer Science &amp; Business Double Degree</strong> program, pursuing a Honours Bachelor of Computer Science at the University of Waterloo with a Human-Computer Interaction Specialization and a Honours Bachelor of Business Administration at Wilfrid Laurier University with a Marketing Concentration.</p>
-					<div class="column">
-						<p>I am currently seeking a full-time position starting Sept 2021. I am primarily interested in software engineering and product management!</p>
-						<img class="aboutPhoto" src="images/undraw_starry_window.svg" alt="Stargazing" />
-					</div>
+          <img class="blogBanner" src="images/shiny.jpg"/>
+          <h1>ShinyBits</h1>
+          <div class="posts">
+
+            <div class="post">
+              <a href="./blog/esports-viewing.html">
+                <section>
+                  <div class="image_wrap">
+                    <img class="project_image" src="images/undraw_esports.svg" alt="Improving the E-sports Viewing Experience" />
+                  </div>
+                  <header>
+                    <h3>Improving the E-sports Viewing Experience</h3>
+                  </header>
+                  <p>10-16-2020</p>
+                </section>
+              </a>
+            </div>
+          </div>
 				</section>
 
 				<footer id="footer">
@@ -74,4 +86,5 @@
 			<script src="assets/js/main.js"></script>
 		</div>
 	</body>
+  <button onclick="topFunction()" id="myBtn" title="Go to Top"><i class="icon fa-chevron-up"></i></button>
 </html>
