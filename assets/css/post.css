@@ -1,0 +1,70 @@
+#banner {
+  display: block;
+  padding: 5em 20% 0 20%;
+  height: auto;
+  min-height: 90vh;
+  align-items: baseline;
+}
+
+#header {
+  animation: none;
+  background: #f3f6fa;
+  box-shadow: none;
+  padding: 2em 2.5em;
+}
+
+#header #nav {
+  right: unset;
+  top: unset;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  position: unset;
+}
+
+#header #nav h1 {
+  margin-top: 0.43em;
+}
+
+#header #nav ul {
+  text-align: end;
+  margin: 0;
+}
+
+#footer {
+  padding: 0.5em;
+}
+
+.activeLink {
+  box-shadow: inset 0 -5px 0 0 #93c2db;
+}
+
+.icons {
+  margin: 0.5em;
+}
+
+
+.page {
+  overflow-y: auto;
+}
+
+.page h1 {
+  font-weight: bold;
+  text-transform: unset;
+}
+
+.postBody {
+  margin-top: 4em;
+  font-size: 90%;
+  white-space: pre-line;
+}
+
+ul {
+  list-style-type: square;
+  white-space: initial;
+  margin-left: 3em;
+}
+
+img {
+  width: 100%;
+}

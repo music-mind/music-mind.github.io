@@ -1904,12 +1904,12 @@
 					background: #e1b89b;
 				}
 
-			.icon.circle.fa-dribbble {
+			.icon.circle.fa-user {
 				background: #da83ae;
 				color: #fff;
 			}
 
-				.icon.circle.fa-dribbble:hover {
+				.icon.circle.fa-user:hover {
 					background: #df93b8;
 				}
 
@@ -3282,4 +3282,41 @@
 
 .logo {
 	max-width: 100%;
+}
+
+.activeLink {
+  box-shadow: inset 0 -5px 0 0 #93c2db;
+	padding-bottom: 0.3em;
+}
+
+#banner {
+  display: grid;
+  place-items: center;
+  padding: 3.5em 3em 0 3em;
+	height: 100vh;
+}
+
+#header {
+  animation: none;
+  background: #f3f6fa;
+  box-shadow: none;
+  padding: 2em 2.5em;
+}
+
+#header #nav {
+  right: unset;
+  top: unset;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  position: unset;
+}
+
+#header #nav h1 {
+  margin-top: 0.43em;
+}
+
+#header #nav ul {
+  text-align: end;
+  margin: 0;
 }

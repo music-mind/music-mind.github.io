@@ -1,0 +1,63 @@
+#banner {
+  display: grid;
+  place-items: center;
+  padding: 5em 3em 0 3em;
+  height: auto;
+}
+
+#header {
+  animation: none;
+  background: #f3f6fa;
+  box-shadow: none;
+  padding: 2em 2.5em;
+}
+
+#header #nav {
+  right: unset;
+  top: unset;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  position: unset;
+}
+
+#header #nav h1 {
+  margin-top: 0.43em;
+}
+
+#header #nav ul {
+  text-align: end;
+  margin: 0;
+}
+
+#footer {
+  padding: 0.5em;
+}
+
+.activeLink {
+  box-shadow: inset 0 -5px 0 0 #93c2db;
+}
+
+.icons {
+  margin: 0.5em;
+}
+
+
+.page {
+  overflow-y: auto;
+}
+
+.page h1 {
+  font-weight: bold;
+}
+
+.projects {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  text-align: center;
+}
+
+.project:hover {
+  box-shadow: 0px 5.2029px 20.8116px rgba(24,61,93,0.08);
+}
