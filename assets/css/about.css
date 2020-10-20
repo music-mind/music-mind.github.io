@@ -2,6 +2,7 @@
   display: grid;
   place-items: center;
   padding: 3.5em 3em 0 3em;
+  height: initial;
 }
 
 #header {
@@ -51,7 +52,7 @@
 p {
   text-align: center;
   margin: 0;
-  padding: 6em;
+  padding: 10%;
 }
 
 .aboutPhoto {
