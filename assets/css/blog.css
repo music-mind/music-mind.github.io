@@ -51,6 +51,7 @@
 .page h1 {
   font-weight: bold;
   text-transform: unset;
+  margin-top: 1em;
 }
 
 .posts {
