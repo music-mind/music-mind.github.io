@@ -3274,6 +3274,8 @@
 	height: 200px;
 	margin-left: auto;
 	margin-right: auto;
+	display: grid;
+	place-items: center;
 }
 
 .logo {
