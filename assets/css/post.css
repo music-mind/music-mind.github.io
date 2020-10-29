@@ -8,7 +8,7 @@
 
 #header {
   animation: none;
-  background: #f3f6fa;
+  background: #f1f7fa;
   box-shadow: none;
   padding: 2em 2.5em;
 }
@@ -72,4 +72,8 @@ img {
 .aerozone {
   width: 50%;
   margin-left: 25%;
+}
+
+section div, ul, li {
+  color: inherit;
 }
