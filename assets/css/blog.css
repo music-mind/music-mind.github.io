@@ -8,7 +8,7 @@
 
 #header {
   animation: none;
-  background: #f3f6fa;
+  background: #f1f7fa;
   box-shadow: none;
   padding: 2em 2.5em;
 }
@@ -59,14 +59,24 @@
   grid-gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   text-align: center;
+  color: inherit;
 }
 
 .post:hover {
   box-shadow: 0px 5.2029px 20.8116px rgba(24,61,93,0.08);
+  transform: scale(1.04, 1.04);
 }
 
 .post h3 {
   text-transform: unset;
+}
+
+.post {
+  color: inherit;
+}
+
+.post section, header, p {
+  color: inherit;
 }
 
 .blogBanner {
@@ -74,4 +84,8 @@
   width: 100%;
   object-fit: cover;
   object-position: 0 90%;
+}
+
+.page .dark-theme .post:hover {
+  box-shadow: 0px 2px 20px rgba(61,27,43,0.3) !important;
 }

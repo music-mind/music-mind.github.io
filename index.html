@@ -26,6 +26,17 @@
 				<nav id="nav">
 					<h1 class="activeLink"><a href="./index.html">Home</a></h1>
 					<ul>
+						<li class="current darkModeItem">
+							<span class="darkModeContainer">
+								<span class="sliderContainer">
+									<label class="darkMode">
+									  <input class="darkModeCheck" type="checkbox">
+									  <span onclick="toggleDarkMode()" class="slider round"></span>
+									</label>
+								</span>
+								<span class="darkModeText">Dark Mode</span>
+							</span>
+						</li>
 						<li class="current">
 							<a href="./about.html">About Me</a>
 						</li>
@@ -45,9 +56,10 @@
 				<div class="banner-table">
 					<div class="inner">
 						<div>
-							<img class="logo" src="images/arri_logo.png" alt="Arri's Page" />
+							<div class="nameText">Hi, I'm Arri!</div>
+							<img class="mainLogo" src="images/undraw_freelancer.svg" alt="Arri's Page" />
 							<br> </br>
-							<div id="typed"></div>
+							<span id="typed"></span>
 						</div>
 						<footer>
 							<ul class="icons">
@@ -60,25 +72,25 @@
 						</footer>
 						<div class="typist">
 							<div id="typed-strings">
-								<p>I'm thinking about <strong>development</strong>.</p>
-								<p>I'm thinking about <strong>gaming</strong>.</p>
-								<p>I'm thinking about <strong>music</strong>.</p>
-								<p>I'm thinking about <strong>diversity</strong>.</p>
-								<p>I'm thinking about <strong>learning languages</strong>.</p>
-								<p>I'm thinking about <strong>technology</strong>.</p>
-								<p>I'm thinking about <strong>the environment</strong>.</p>
-								<p>I'm thinking about <strong>racquet sports</strong>.</p>
-								<p>I'm thinking about <strong>innovation</strong>.</p>
-								<p>I'm thinking about <strong>creativity</strong>.</p>
-								<p>I'm thinking about <strong>food</strong>.</p>
-								<p>I'm thinking about <strong>friends</strong>.</p>
-								<p>I'm thinking about <strong>design</strong>.</p>
-								<p>I'm thinking about <strong>social media</strong>.</p>
-								<p>I'm thinking about <strong>finance</strong>.</p>
-								<p>I'm thinking about <strong>social impact</strong>.</p>
-								<p>I'm thinking about <strong>nature</strong>.</p>
+								<p>I'm thinking about <strong class="typedText">development</strong>.</p>
+								<p>I'm thinking about <strong class="typedText">gaming</strong>.</p>
+								<p>I'm thinking about <strong class="typedText">music</strong>.</p>
+								<p>I'm thinking about <strong class="typedText">diversity</strong>.</p>
+								<p>I'm thinking about <strong class="typedText">learning languages</strong>.</p>
+								<p>I'm thinking about <strong class="typedText">technology</strong>.</p>
+								<p>I'm thinking about <strong class="typedText">the environment</strong>.</p>
+								<p>I'm thinking about <strong class="typedText">racquet sports</strong>.</p>
+								<p>I'm thinking about <strong class="typedText">innovation</strong>.</p>
+								<p>I'm thinking about <strong class="typedText">creativity</strong>.</p>
+								<p>I'm thinking about <strong class="typedText">food</strong>.</p>
+								<p>I'm thinking about <strong class="typedText">friends</strong>.</p>
+								<p>I'm thinking about <strong class="typedText">design</strong>.</p>
+								<p>I'm thinking about <strong class="typedText">social media</strong>.</p>
+								<p>I'm thinking about <strong class="typedText">finance</strong>.</p>
+								<p>I'm thinking about <strong class="typedText">social impact</strong>.</p>
+								<p>I'm thinking about <strong class="typedText">nature</strong>.</p>
 							</div>
-						</div>
+				</div>
 					</div>
 
 				</div>
@@ -102,6 +114,7 @@
 				<script>
 					var typed = new Typed('#typed', {
 						stringsElement: '#typed-strings',
+						shuffle: true,
 						smartBackspace: true,
 						loop: true,
 						typeSpeed: 50

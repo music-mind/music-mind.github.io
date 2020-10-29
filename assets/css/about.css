@@ -5,6 +5,11 @@
   height: initial;
 }
 
+#banner span {
+  font-weight: bold;
+  color: inherit;
+}
+
 #header {
   animation: none;
   background: transparent;
@@ -53,6 +58,7 @@ p {
   text-align: center;
   margin: 0;
   padding: 10%;
+  color: inherit;
 }
 
 .aboutPhoto {
@@ -63,4 +69,5 @@ p {
   display: grid;
   grid-template-columns: 50% 50%;
   place-items: center;
+  color: inherit;
 }

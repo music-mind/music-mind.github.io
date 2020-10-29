@@ -18,6 +18,31 @@ function topFunction() {
     document.documentElement.scrollTop = 0; // For IE and Firefox
 }
 
+function toggleDarkMode() {
+  const curMode = document.querySelector('.darkModeCheck').checked;
+  if (curMode) {
+    // turn off
+    document.body.classList.remove('dark-theme');
+    document.querySelector('#header') && document.querySelector('#header').classList.remove('dark-theme');
+    document.querySelector('.nameText') && document.querySelector('.nameText').classList.remove('dark-theme');
+    document.querySelector('#typed') && document.querySelector('#typed').classList.remove('dark-theme');
+    document.querySelector('.typed-cursor') && document.querySelector('.typed-cursor').classList.remove('dark-theme');
+    document.querySelector('#banner') && document.querySelector('#banner').classList.remove('dark-theme');
+    document.querySelector('#footer') && document.querySelector('#footer').classList.remove('dark-theme');
+    localStorage.removeItem('darkMode');
+  } else {
+    // add darkMode
+    document.body.classList.add('dark-theme');
+    document.querySelector('#header') && document.querySelector('#header').classList.add('dark-theme');
+    document.querySelector('.nameText') && document.querySelector('.nameText').classList.add('dark-theme');
+    document.querySelector('#typed') && document.querySelector('#typed').classList.add('dark-theme');
+    document.querySelector('.typed-cursor') && document.querySelector('.typed-cursor').classList.add('dark-theme');
+    document.querySelector('#banner') && document.querySelector('#banner').classList.add('dark-theme');
+    document.querySelector('#footer') && document.querySelector('#footer').classList.add('dark-theme');
+    localStorage.setItem('darkMode', true);
+  }
+}
+
 (function($) {
 
 	skel.breakpoints({
@@ -37,6 +62,19 @@ function topFunction() {
 
 		// Disable animations/transitions until the page has loaded.
 			$body.addClass('is-loading');
+      const curMode = localStorage.getItem('darkMode');
+      if (curMode) {
+        document.querySelector('.darkModeCheck').checked = true;
+        // add darkMode
+        document.body.classList.add('dark-theme');
+        document.querySelector('#header') && document.querySelector('#header').classList.add('dark-theme');
+        document.querySelector('.nameText') && document.querySelector('.nameText').classList.add('dark-theme');
+        document.querySelector('#typed') && document.querySelector('#typed').classList.add('dark-theme');
+        document.querySelector('.typed-cursor') && document.querySelector('.typed-cursor').classList.add('dark-theme');
+        document.querySelector('#banner') && document.querySelector('#banner').classList.add('dark-theme');
+        document.querySelector('#footer') && document.querySelector('#footer').classList.add('dark-theme');
+      }
+
 
 			$window.on('load', function() {
 				$body.removeClass('is-loading');
